@@ -1,0 +1,59 @@
+
+If we want to cover all the screeen we have to use 
+- Container-fluid
+If we just want a box/ container we can use
+- Container
+
+if we want to make a pattern we have to use the following classs name 
+	- container/container-fluid
+	- row
+	- col-12/col-lg-12/col-md-3 etc 
+
+We divide a whole screen into 12 parts. And according to that we use responsivness 
+
+like we are at extra large sreen more than 1400px width aproox we are going to use 
+1. col-xl-12 , 12 or anything suitable for that moment 
+
+If we want to use it for large screeens like velow 1400px 
+2 . col-lg-6 
+
+if we want to use it for medium screens sizes
+3. col-md-3
+
+if we want to use it for small sizes screen
+4. col-sm-3
+
+and after that we have to give values in
+5. col-12 
+
+
+*Nesting 
+
+	if we want nesting so we can perform that too just make a div inside which ever div we want and work can done like that 
+
+
+  <div class="col-lg-5 col-md-11 box">
+                <div class="col-12 box1 h2 p-4">Full stack Devloper(Online)</div>
+                <div class="row h4">
+                    <div class="col-lg-6 col-md-6 box2"> location <br> Pan-india </div>
+                    <div class="col-lg-6 col-md-6 box2"> location <br> Pan-india </div>
+                    <div class="col-lg-6 col-md-6 box2"> location <br> Pan-india </div>
+                    <div class="col-lg-6 col-md-6 box2"> location <br> Pan-india </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-0"></div>
+                    <div class="col-lg-6 col-12"><button class="btn btn-primary col-lg-12 col-12">details</button></div>
+                </div>
+            </div>
+
+you can seee nesting is happened in the above example.
+
+
+
+*offset : if we want to make invisible divs or like we have to shift a div for 2 unit so we put theese invisble offset div just before them and our work is done just a techinique which i can think where offset can be use 
+
+it is written as same :  offset-md-4 , offset-lg-4 , offset-sm-4 etc 
+
+
+* ordering : Like we want to change some divs ordr when the screen sizes chnages at that time we use ordering     it is written as : order-5 , order-2 etc
