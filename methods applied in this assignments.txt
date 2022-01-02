@@ -25,7 +25,26 @@ if we want to use it for small sizes screen
 
 and after that we have to give values in
 5. col-12 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Grids
+https://getbootstrap.com/docs/4.3/layout/grid/
 
+Forms
+https://getbootstrap.com/docs/4.3/components/forms/
+
+Buttons
+https://getbootstrap.com/docs/4.3/components/buttons/
+
+Cards
+https://getbootstrap.com/docs/4.3/components/card/
+
+Typography
+https://getbootstrap.com/docs/4.3/content/typography/
+
+Spacing (Margins & Padding)
+https://getbootstrap.com/docs/4.3/utilities/spacing/
+
+///////////////////////////////////////////////////////////////////////////////////////////////
 
 *Nesting 
 
@@ -57,3 +76,83 @@ it is written as same :  offset-md-4 , offset-lg-4 , offset-sm-4 etc
 
 
 * ordering : Like we want to change some divs ordr when the screen sizes chnages at that time we use ordering     it is written as : order-5 , order-2 etc
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+Grids
+https://getbootstrap.com/docs/4.3/layout/grid/
+
+Responsive Classes
+https://getbootstrap.com/docs/4.3/layout/grid/#responsive-classes
+
+Nested Grids
+https://getbootstrap.com/docs/4.3/layout/grid/#nesting
+
+Offset Columns
+https://getbootstrap.com/docs/4.3/layout/grid/#offsetting-columns
+
+Columns Ordering
+https://getbootstrap.com/docs/4.3/layout/grid/#reordering
+
+Background Colors https://getbootstrap.com/docs/4.4/utilities/colors/#background-color
+
+Colors https://getbootstrap.com/docs/4.4/utilities/colors/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+Images:  for responsive images we have to add a class that is  class="img-fluid"
+
+bootstrap link:    https://getbootstrap.com/docs/4.4/content/images/
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+list-items : for list items we use   class="list-group-item"
+             there are a pleanty varirty of list items this is the basic one .
+
+bootstrap link for list-items:   https://getbootstrap.com/docs/4.4/components/list-group/
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+To hide some particular elements in some particular screen size 
+-> d-lg-block : it will be visible only on large screen sizes
+-> d-md-none : it will hide in particular screen sizes
+-> d-none : it will be not visble for any screen sizes
+-> d-block : it will be visible for all screen sizes
+
+
+bootstrap link Display:  https://getbootstrap.com/docs/4.4/utilities/display/
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+we can use flex also in bootstrap 
+
+d-flex  to initializing the flex; just an example
+refer to website for more property
+
+bootstrap link Flex:  https://getbootstrap.com/docs/4.4/utilities/flex/
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+we use floating property as well 
+
+float-right and float-left : are two commonly used float items
+
+float-sm-left : it will shift it position when it came to smnall screen size
+
+clearfix : this will clear all the floats
+
+bootstrap link Float:  https://getbootstrap.com/docs/4.4/utilities/float/
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+shadow-sm for smaall shadow
+
+bootstrap link Shadows https://getbootstrap.com/docs/4.4/utilities/shadows/
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+for borders
+
+bootstrap link Borders https://getbootstrap.com/docs/4.4/utilities/borders/
+
+
